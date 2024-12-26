@@ -1,0 +1,212 @@
+
+
+.gdiv{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.google-image{
+    height: 92px;
+    width: 222;
+}
+
+.inputm{
+ height: 50px;
+ width: 40rem;
+ border-radius: 30px;
+ border: none;
+ border-style: solid;
+ border-color: rgba(138, 128, 128, 0.2);
+ margin-bottom: 40px;
+ font-size: large;
+ padding-left: 20px;
+ font-weight: 500;
+
+ 
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder{
+    font-size: large;
+    position: relative;
+    left: 20px;
+    color: rgb(173, 171, 171);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.luckybutton{
+    margin-left: 20px;
+    font-weight: bold;
+    height: 35px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.gbutton{
+    font-weight: bold;
+    height: 35px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+
+.secondp{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+
+}
+
+.ha{
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.ha:hover{
+    text-decoration: underline;
+}
+
+.igb{
+    margin-left: 10px;
+}
+
+.ede{
+    margin-left: 10px;
+}
+
+.yo{
+    margin-left: 10px;
+}
+
+.nige{
+    margin-left: 10px;
+}
+
+.gbutton:hover{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(228, 214, 214);
+    border-radius: 4px;
+}
+
+.luckybutton:hover{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(228, 214, 214);
+    border-radius: 4px;
+}
+
+
+ul{
+    
+}
+
+.foot{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-weight: bold;
+    
+}
+
+.foot:hover{
+    text-decoration: underline;
+}
+
+
+
+.imgdiv{
+    display: inline-flex;
+    flex: 1;
+    justify-content: center;
+    
+}
+
+img{
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+h3{
+
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-size: 18.5px;
+}
+
+.lasta{
+margin-left: 10px;
+text-decoration: none;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.lasta:hover{
+text-decoration: underline;
+}
+
+.mid{
+    text-decoration: none;
+}
+
+.mid:hover{
+    text-decoration: underline;
+}
+
+.foot-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+
+.foot-a{
+display: flex;
+align-items: end;
+flex-shrink: 0;
+}
+
+.last{
+    display: flex;
+    align-items: end;
+    flex-shrink: 0;
+}
+
+.second-divdiv{
+
+    margin-bottom: 246px;
+}
+
+
+@media screen and (max-width:865px) {
+    .imgdiv{
+        display: none;
+    }
+
+    .foot-div{
+        justify-content: space-between;
+        padding-top: 185PX;
+    }
+}
